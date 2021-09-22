@@ -13,7 +13,7 @@ public class Hello {
 
         // database.MysqlAction.java 内にあるインスタンス
         MysqlAction ma = new MysqlAction();
-        //ma.loadMySql();
+        ma.loadMySql();
 
         // このクラスのインスタンス
         Hello hello = new Hello();
