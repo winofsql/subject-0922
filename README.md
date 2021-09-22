@@ -49,3 +49,14 @@
 </IfModule>
 ```
 ![image](https://user-images.githubusercontent.com/1501327/134299240-a06a2b35-ced0-4cc4-9b10-7267a584f625.png)
+
+![image](https://user-images.githubusercontent.com/1501327/134299430-359e370b-04ac-4a6a-a14a-54f4c3e3c2d2.png)
+```javascript
+    "runTerminalCommand.commands": [
+        {
+            "command": "type nul >> control.php && type nul >> model.php && type nul >> view.php",
+            "name": "Php Base",
+            "auto": true
+        }
+    ]
+```
